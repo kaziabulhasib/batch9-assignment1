@@ -1,6 +1,49 @@
-h1 {
-  color: rgb(255, 255, 255);
-  width: 500px;
-  height: 500px;
-  background-image: url("../images/Vectorrr.png");
+/* common shared code */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 87.5%;
+  max-width: 1400px;
+  margin: 20px auto;
+}
+
+/* banner section style */
+
+.container {
+  width: 1250px;
+  height: 550px;
+}
+
+.banner {
+  background-image: url("../images/BannerImage.png"),
+    linear-gradient(180deg, #0b0a0ad3, #070211d2);
+
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-content {
+  width: 600px;
+  text-align: center;
+}
+.banner-content > h4 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.banner-content > h1 {
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  line-height: 90px;
+  font-weight: 900;
+  color: #fff;
 }
