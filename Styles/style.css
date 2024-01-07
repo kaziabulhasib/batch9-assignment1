@@ -47,3 +47,38 @@ body {
   font-weight: 900;
   color: #fff;
 }
+
+/* discount section style */
+.discount {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.discount h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 85px;
+  font-weight: 700;
+  color: #ff0000;
+  margin-bottom: 48px;
+}
+
+.discount h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+
+.discount h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #070211;
+  margin-bottom: 48px;
+}
+
+.discount img {
+  width: 800px;
+  height: 500px;
+}
