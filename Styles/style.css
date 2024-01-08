@@ -155,9 +155,70 @@ body {
   margin-bottom: 48px;
 }
 
-/* .venue button {
-  margin-top: 100px;
-} */
+.venue span {
+  color: #ff0000;
+}
+
+/* offer section - */
+
+.offer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.offer-sec {
+  width: 33%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* offer section-left part */
+.offer-left h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+.offer-left h1 {
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 22px;
+}
+
+.offer-left p,
+.offer-right p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #000000;
+  border-bottom: 43px;
+}
+/* offer sectin - right part */
+.offer-right h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 700;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+
+/* offer section - middle part */
+.offer-middle {
+  border: 15px solid #ff0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+}
 /* portfolio section */
 
 /* .portfolio {
