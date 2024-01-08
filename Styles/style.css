@@ -11,6 +11,9 @@ body {
   width: 87.5%;
   max-width: 1400px;
   margin: 20px auto;
+  box-shadow: 2px 2px 5px rgba(240, 240, 240, 0.444),
+    -2px -2px 5px rgba(240, 240, 240, 0.444);
+  padding: 20px 5px;
 }
 
 .btn-primary {
@@ -25,11 +28,12 @@ body {
   margin-left: 20px;
 }
 
-/* banner section style */
-
 .container {
   width: 1250px;
+  margin: 120px auto;
 }
+
+/* banner section style */
 
 .banner {
   background-image: url("../images/BannerImage.png"),
@@ -40,6 +44,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 550px;
+  margin-top: 20px;
 }
 .banner-content {
   width: 600px;
@@ -132,13 +137,13 @@ body {
 
 /* portfolio section */
 
-.portfolio {
+/* .portfolio {
   margin-top: 120px;
-  margin-left: 0;
-}
+} */
 
 .portfolio .portfolio-text {
   width: 650px;
+  margin-left: 30px;
 }
 
 .portfolio .portfolio-text h4 {
@@ -192,9 +197,10 @@ body {
 
 .newsletter {
   background-color: #ff00000d;
-  width: 1250px;
+  width: 1150px;
   height: 600px;
   border-radius: 15px;
+  margin: 120px auto;
 }
 
 .newsletter-content {
@@ -263,4 +269,13 @@ body {
   text-align: center;
 
   margin-left: 0;
+}
+
+/* footer section */
+
+.footer-sec {
+  height: 800px;
+  width: 1400px;
+  background-color: #000;
+  margin: 50px auto;
 }
