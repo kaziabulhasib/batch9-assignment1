@@ -105,8 +105,8 @@ body {
 /* party section design */
 
 .party {
-  background-image: url("../images/PartyBg.png"),
-    linear-gradient(180deg, #0b0a0ad3, #070211d2);
+  background-image: linear-gradient(80deg, #0b0a0a83, #0702117c),
+    url("../images/PartyBg.png");
   border-radius: 10px;
   height: 600px;
   display: flex;
@@ -258,14 +258,23 @@ body {
   color: #070211;
 }
 
-.sale-img-top {
-  width: 100%;
+.sale-img {
   display: flex;
+  align-items: center;
+  justify-content: start;
+  background-image: url("../images/sale-box-bg.png"),
+    url("../images/sale-discount-bg.png");
+  background-position: left bottom, right top;
+  background-size: contain, 35%;
+  background-repeat: repeat-x, no-repeat;
 }
 
-.sale-img-top img {
-  width: 330px;
-  height: 350px;
+#sale-discount {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  right: 120px;
+  bottom: 90px;
 }
 
 /* portfolio section */
