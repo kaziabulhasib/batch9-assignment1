@@ -367,6 +367,10 @@ body {
     -2px -2px 5px rgba(33, 33, 33, 0.209);
 }
 
+.footer-sec .sub-sec {
+  margin: auto 140px;
+}
+
 .address {
   height: 200px;
   display: flex;
@@ -376,16 +380,32 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 40px;
+  border-bottom: 0.5px #ffffff26 solid;
 }
 
 .address .address-text {
   width: 375px;
 }
 
+.call-web {
+  display: flex;
+  align-items: center;
+}
+
+.call-web img {
+  width: 24px;
+  height: 24px;
+}
+
+.call-web p {
+  margin-left: 16px;
+}
 .social {
+  display: flex;
   height: 200px;
-  text-align: center;
-  margin: 70px auto;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.5px #ffffff26 solid;
 }
 
 .social img {
@@ -402,4 +422,5 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 40px;
+  padding-top: 50px;
 }
