@@ -219,6 +219,55 @@ body {
   height: 420px;
   border-radius: 50%;
 }
+/* Holidays sales section */
+.sale {
+}
+.sale-text {
+  width: 900px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.sale-text h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.sale-text h1 {
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  line-height: 90px;
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 28px;
+}
+
+.sale-text h1 span {
+  color: #ff0000;
+}
+
+.sale-text P {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #070211;
+}
+
+.sale-img-top {
+  width: 100%;
+  display: flex;
+}
+
+.sale-img-top img {
+  width: 330px;
+  height: 350px;
+}
+
 /* portfolio section */
 
 /* .portfolio {
