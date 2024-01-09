@@ -37,8 +37,8 @@ body {
 /* banner section style */
 
 .banner {
-  background-image: url("../images/BannerImage.png"),
-    linear-gradient(180deg, #0b0a0ad3, #070211d2);
+  background-image: linear-gradient(80deg, #0b0a0a83, #0702117c),
+    url("../images/BannerImage.png");
 
   border-radius: 10px;
   display: flex;
